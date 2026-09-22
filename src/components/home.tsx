@@ -1,5 +1,5 @@
-function Main_page() {
-    return <div className='bg-amber-950'>хуй</div>
+function Main() {
+    return <div>main page in working...</div>
 }
 
-export default Main_page;
+export default Main;

@@ -1,4 +1,4 @@
-import Main from './components/Home'; // Импортируем наш компонент
+import Main from './components/Home'; 
 
 
 function App() {
