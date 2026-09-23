@@ -1,12 +1,13 @@
-import Main from './components/Home'; 
-
+import { Routes, Route } from 'react-router-dom';
+import Main from './components/home';
+import Catalog from './components/catalog';
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/catalog" element={<Catalog />} />
+    </Routes>
   );
 }
-
 export default App;
